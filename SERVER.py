@@ -95,7 +95,7 @@ def clientLogIn(sck):
     sck.sendall(str(accepted).encode(FORMAT))
     #print("end-logIn()")
 
-# láº¥y mÃ³n trong menu
+# Lấy món ăn trong menu
 def getMenu():
     res=[]
     data=''

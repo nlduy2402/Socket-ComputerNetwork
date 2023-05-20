@@ -185,9 +185,9 @@ class HomePage(tk.Frame):
         self.tree.column("Price", anchor='e', width=40)
         self.tree.column("Note", anchor='c', width=100)
         self.tree.heading("0", text="", anchor='c')
-        self.tree.heading("Name", text="TÃªn mÃ³n Äƒn", anchor='c')
-        self.tree.heading("Price", text="GiÃ¡", anchor='e')
-        self.tree.heading("Note", text="Ghi chÃº", anchor='c')
+        self.tree.heading("Name", text="Tên món ăn", anchor='c')
+        self.tree.heading("Price", text="Gía", anchor='e')
+        self.tree.heading("Note", text="Ghi chú", anchor='c')
         self.tree.pack(pady=20)
 
         #ORDER FRAME
